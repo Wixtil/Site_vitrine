@@ -240,7 +240,7 @@ p#text-presentation{
  
 
 .compétences{
-    height: 110vh;
+    height: 100vh;
     display: flex;
     align-items: stretch;
     flex-direction: column;
@@ -281,7 +281,7 @@ p#text-presentation{
 }
 .ligne_competences img {
     position: relative;
-    left: 5%;
+    left: 20%;
     width: 100px;
     margin: 15px;
     padding: 15px;
@@ -384,7 +384,6 @@ p#text-presentation{
 
 .certification_content{
     position: relative;
-    /* top: 10%; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -394,6 +393,11 @@ p#text-presentation{
     box-shadow: rgb(0 0 0 / 35%) 10px 10px 12px 10px;
     margin: 15px;
     padding: 15px;
+}
+
+.certif-container{
+    position: relative;
+    left: 2%;
 }
 
 .certification img {
@@ -460,6 +464,8 @@ p#text-presentation{
     object-fit: cover;
     border-radius: 30px;
 }
+
+
 
 .card-container{
     width: 100%;
@@ -542,6 +548,10 @@ p#text-presentation{
 }
 
 .card-btn:hover{
+    transform: scale(1.2);
+}
+
+.card-btn-code:hover{
     transform: scale(1.2);
 }
 
